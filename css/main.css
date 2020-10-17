@@ -677,6 +677,10 @@ textarea {
     }
 
     /* Hero Area */
+    .hero-area {
+      background: url('../img/hero-img.jpg') center no-repeat;
+      background-size: cover;
+    }
     .hero-area h1 {
       font-size: 3.75em;
       width: 60%;
@@ -697,6 +701,10 @@ textarea {
     }
 
     /* Features */
+  .features {
+    background: url('../img/feature-img.jpg') center no-repeat;
+    background-size: cover;
+  }
 
   .features h2 {
     width: 90%;
@@ -708,6 +716,7 @@ textarea {
 
     /* Reviews */
 
+    
     .reviews h2 {
       padding-bottom: 50px;
     }
