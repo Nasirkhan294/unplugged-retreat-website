@@ -105,7 +105,7 @@ textarea {
 
    h2 {
      font-family: 'Poppins', sans-serif;
-     font-weight: 700;
+     font-weight: 500;
      font-size: 1.875em;   
     }
 
@@ -127,8 +127,16 @@ textarea {
      color: #e2e3ed;
    }
 
+   img {
+     width: 100%;
+   }
 
-   .address {
+   figure {
+     margin: 0;
+   }
+
+
+    address {
       font-style: normal;
    }
 
@@ -160,6 +168,15 @@ textarea {
      flex-flow: row wrap;
      margin: 0;
    }
+
+   header figure {
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+
    .header-divider {
      background-color: #3a3a3a;
      width: 100%;
@@ -226,6 +243,10 @@ textarea {
    /* Hero Area */
 
    .hero-area {
+      background: url('../img/hero-img.jpg');
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
@@ -241,9 +262,9 @@ textarea {
    /* Aside */
   aside {
     background-color: #527158;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
   }
 
@@ -276,6 +297,8 @@ textarea {
 
   /* Features */
    .features {
+    background: url('../img/feature-img.jpg') center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -476,12 +499,12 @@ textarea {
     h2 {
       font-size: 2.25em;
       line-height: 1.333;
-  }
+    }
   
-  h3 {
+    h3 {
       font-size: 1.5em;
       line-height: 1.25;
-  }
+    }
   
   /* Header */
     header {
@@ -510,6 +533,10 @@ textarea {
      display: none;
     }
     /* Hero Area */
+
+    .hero-area {
+      min-height: 600px;
+    }
 
     .hero-area h1 {
       font-size: 3em;
@@ -554,6 +581,7 @@ textarea {
      justify-content: space-between;
     }
 
+    .reviews article figure, 
     .reviews article div {
      width: 49%;
     }
@@ -677,13 +705,10 @@ textarea {
     }
 
     /* Hero Area */
-    .hero-area {
-      background: url('../img/hero-img.jpg') center no-repeat;
-      background-size: cover;
-    }
+
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
     }
 
     /* Aside */
@@ -701,10 +726,6 @@ textarea {
     }
 
     /* Features */
-  .features {
-    background: url('../img/feature-img.jpg') center no-repeat;
-    background-size: cover;
-  }
 
   .features h2 {
     width: 90%;
@@ -715,8 +736,6 @@ textarea {
   }
 
     /* Reviews */
-
-    
     .reviews h2 {
       padding-bottom: 50px;
     }
@@ -736,7 +755,7 @@ textarea {
      .contact-section .content-wrapper h2 {
        width: 95%;
        font-size: 3em;
-       font-weight: normal;
+
      }
 
      .contact-content h4 {
@@ -750,7 +769,6 @@ textarea {
     .faq h2 {
       width: 100%;
       font-size: 3em;
-      font-weight: normal;
     }  
     
     .faq h4,
