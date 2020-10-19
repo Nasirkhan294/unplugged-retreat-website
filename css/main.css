@@ -86,6 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /* General Styles */
 
    html {
      font-size: 16px;
@@ -140,7 +141,6 @@ textarea {
       font-style: normal;
    }
 
-    
    .content-wrapper {
     width: 90%;
     margin: 50px 0;
@@ -318,6 +318,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
   
   .features p {
