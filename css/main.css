@@ -222,6 +222,14 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
+     background-color: #527158;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+   }
+
+   footer .social-icons i {
+     font-size: 1.3125em;
    }
 
    footer .content-wrapper {
@@ -374,7 +382,7 @@ textarea {
    .map figure {
      width: 100%;
      height: 0;
-     padding-bottom: 100%;
+     padding-bottom: 125%;
      overflow: hidden;
      position: relative;
    }
@@ -644,6 +652,11 @@ textarea {
 
     footer .copyright {
      width: 100%;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
        
     /* ==========================================================================
